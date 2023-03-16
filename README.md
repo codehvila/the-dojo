@@ -71,8 +71,54 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ---
 
-## **First Setup**
+## **Command Line Setup**
 
-## Install Firebase
+## **Install Firebase**
 ### `npm install firebase` <kbd>Enter</kbd>
 
+## **Instal firebase-tools**
+`> npm install -g firebase-tools` <kbd>ENTER</kbd>
+
+### **Login to firebase**
+
+### Place you into root working directory
+
+`> firebase login` <kbd>ENTER</kbd>
+
+
+### **Configure firebase**
+`> firebase init` <kbd>ENTER</kbd>
+
+### **Choose firebase features**
+Choose:
+- `(*) Firestore: Configure security rules and indexes files for Firestore`, <kbd>SPACE BAR</kbd>
+- `(*) Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys`, <kbd>SPACE BAR</kbd>
+- `(*) Storage: Configure a security rules file for Cloud Storage` <kbd>SPACE BAR</kbd>
+
+<kbd>ENTER</kbd>
+
+### **Associate project directory with a Firebase project**
+`Use and existing project`
+
+`Select a default Firebase project for this directory: thedojosite-*****` <kbd>ENTER</kbd>
+
+### **Firestore Rules Setup**
+`Choose file name to use: firestore.rules` <kbd>ENTER</kbd>
+
+### **Firestore Indexes Setup**
+`Choose file name to use: firestore.indexes.json` <kbd>ENTER</kbd>
+
+### **Firestore Setup Hosting**
+`Choose What do you want to use as your public directory: build` <kbd>ENTER</kbd>
+
+`Configure single-page app (rewrite all urls to /index.html): Yes` <kbd>ENTER</kbd>
+
+`Setup  automatic builds and deploys with GitHub: No` <kbd>ENTER</kbd>
+
+### **Firestore Storage Setup**
+If you get an error, go to Firebase Console and setup "Default GCP resource location" on project general settings.
+`What file should be used for Storage Rules: storage.rules` <kbd>ENTER</kbd>
+
+### End
+
+---
