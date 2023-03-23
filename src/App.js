@@ -6,14 +6,15 @@ import Dashboard from "./pages/dashboard/Dashboard";
 import Project from "./pages/project/Project";
 import Create from "./pages/create/Create";
 import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Sidebar />
         <div className="container">
           <Navbar />
           <Routes>

@@ -73,3 +73,13 @@ textarea {
   padding: 8px;
   margin: 10px 0;
 }
+
+#sidebar a.active {
+  color: #555;
+  background: var(--bg-color);
+  border-radius: 20px 0 0 20px;
+}
+
+#sidebar .active img {
+  filter: invert(40%);
+}
